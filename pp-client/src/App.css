@@ -15,6 +15,9 @@
 }
 
 .App-intro {
+  background-image: url("http://www.sihamafra.ch/fotodateien/0/Slider/HD/bg.jpg");
+  width: 100vw;
+  height: 100vh;
   font-size: large;
 }
 
