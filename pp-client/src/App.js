@@ -15,16 +15,17 @@ class App extends Component {
               <h2>Welcome to React</h2>
             </div>
             <p className="App-intro">
+            Test font
               <div>
               <ul>
                 <br/>
                 <br/>
                 <br/>
-                  <Link to="/Setup" activeStyle={{ color: 'red' }}><Container><Button className="Homepage-button" size="massive" color="blue">Kitchen Inventory</Button></Container></Link>
+                  <Link to="/Setup" activeStyle={{ color: 'red' }}><Container><Button className="button" size="massive" color="blue">Kitchen Inventory</Button></Container></Link>
                 <br/>
                 <br/>
                 <br/>
-                  <Link to="/NewTeam" activeStyle={{ color: 'red' }}><Container><Button className="Homepage-button" size="massive" color="blue">High Line Inventory</Button></Container></Link>
+                  <Link to="/Global" activeStyle={{ color: 'red' }}><Container><Button className="button" size="massive" color="blue">Check Location Inventory</Button></Container></Link>
               </ul>
             </div>
             </p>

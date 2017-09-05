@@ -1,4 +1,5 @@
 .App {
+  font-family: Courier, mono-space;
   text-align: center;
 }
 
@@ -12,6 +13,11 @@
   height: 150px;
   padding: 20px;
   color: white;
+  font-family: Courier, mono-space;
+}
+
+.button {
+  font-family: Courier, mono-space;
 }
 
 .App-intro {
@@ -19,6 +25,8 @@
   width: 100vw;
   height: 100vh;
   font-size: large;
+  text-shadow: 3px 2px white;
+  font-family: Courier, mono-space;
 }
 
 @keyframes App-logo-spin {
