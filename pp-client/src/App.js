@@ -4,11 +4,16 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Button, Container } from 'semantic-ui-react'
 
+import GlobalInvContainer from './containers/GlobalInvContainer'
+
+
 class App extends Component {
   render() {
     return (
       <Router>
         <Switch>
+        <Route path="/Global" render={() =><GlobalInvContainer/>}/>
+
           <div className="App">
             <div className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
